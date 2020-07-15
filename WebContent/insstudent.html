@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert Student</title>
+<link rel="stylesheet" href="stylesheet\style.css">
+</head>
+<body>
+	<header>
+		<h1>ABC School</h1>
+	</header>
+	<main>
+		<h2>Store Management System</h2>
+		<form action="insstudent.jsp" name="form1" method="post">
+			<table>
+				<tr>
+					<th>Property</th>
+					<th>Value</th>
+				</tr>	
+				<tr>
+					<td>Enter Roll No</td>
+					<td><input type="number" name="roll"></td>
+				</tr>	
+				<tr>
+					<td>Enter Student Name</td>
+					<td><input type="text" name="name"></td>
+				</tr>	
+				<tr>
+					<td>Enter Standard</td>
+					<td><input type="text" name="std"></td>
+				</tr>	
+				<tr>
+					<td>Enter Date of Birth<br>(DD-Month Name-YY)</td>
+					<td><input type="text" name="dob"></td>
+				</tr>
+				<tr>
+					<td>Enter Fees</td>
+					<td><input type="number" name="fees"></td>
+				</tr>
+				<tr><td id="blank"></td><td><input type="submit" value="submit" id="sub" ></td></tr>	
+			</table>
+			
+		</form>		
+	</main>
+	<aside>
+		<h2>Menu</h2>
+		<ul>
+			<li><a href="Menu.html" >Home</a></li>
+			<li><a href="insstudent.html" class="active">Insert Student</a></li>
+			<li><a href="updstudent.html">Update Student</a></li>
+			<li><a href="delstudent.html">Delete Student</a></li>
+			<li><a href="viewstu.html">View a Student</a></li>
+			<li><a href="viewall.jsp">View All Students</a></li>
+		</ul>		
+	</aside>	
+</body>
+</html>

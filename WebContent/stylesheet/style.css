@@ -1,0 +1,97 @@
+header{
+	text-align:center;
+	background-image:url("../images/digitalschool2.jpg");
+	display:inline-block;
+	width:100%;
+	height:300px;
+}
+header h1{
+	padding-top:85px;
+	color:#c8da13;
+	font-variant:small-caps;
+}
+aside{
+	display:inline-block;
+	float:left;
+	width:15%;
+	height:480px;
+	background-color:#1e34b3;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+	font-size:150%;
+}
+aside ul{
+	list-style:none;
+}
+aside ul li{
+	text-align:left;
+	padding-bottom:20px;
+}
+aside ul li a{
+	text-decoration:none;
+	color:#b6bfbc;
+	font-size:75%;
+	text-align:left;
+	padding:5px 5px 20px 5px;
+}
+aside ul li a:hover{
+	border:2px solid green;
+	padding-bottom:5px;
+}
+aside ul li a:active{
+	border:2px solid blue;
+	padding-bottom:5px;
+}
+main{
+	display:inline-block;
+	width:85%;
+	background-color:#8f9897;
+	float:right;
+	height:480px;
+	box-sizing:border-box;
+	text-align:center;
+}
+main p{
+	text-align:left;
+	padding-left:20px;
+}
+.active{
+	border:5px solid #46aab7;
+	border-radius:5%;
+	padding:10px 10px 10px 10px;
+}
+table{
+	padding:20px 5px;
+	margin:0px auto;
+	border:5px solid #063c35;
+	border-radius:5%;
+	background-color:#34596b;
+}
+table tr{
+	padding-bottom:5px;
+}
+
+/*.bordrig {
+  border: 1px solid black;
+  padding-right:50px;
+}*/
+
+#sub{
+	margin-top:10px;
+	float:left;
+}
+#sub:hover{
+	cursor:pointer;
+	background-color:#7d7b74;
+}
+.inpdates{
+	display:inline-block;
+	width:170px;
+}
+#table4{
+	margin:50px;
+}
+#table4_sub{
+	cursor:pointer;
+}
