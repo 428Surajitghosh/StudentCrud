@@ -4,6 +4,22 @@
 <meta charset="ISO-8859-1">
 <title>Update Student</title>
 <link rel="stylesheet" href="stylesheet/style.css">
+<script>
+function validation(){
+	var roll=document.form2.roll.value;
+	var std=document.form2.std.value;
+	var fees=document.form2.fees.value;
+	if(roll==""||std==""||fees=="")
+	{
+		alert("Field cannot be empty");
+		return false;
+	}
+	else
+	{
+		return true;	
+	}
+}	
+</script>
 </head>
 <body>
 	<header>
@@ -29,7 +45,7 @@
 					<td>Enter Fees</td>
 					<td><input type="number" name="fees"></td>
 				</tr>
-				<tr><td id="blank"></td><td><input type="submit" value="submit" id="sub" ></td></tr>	
+				<tr><td id="blank"></td><td><input type="submit" value="submit" id="sub" onclick="return validation()"></td></tr>	
 			</table>
 			
 		</form>		
